@@ -1,6 +1,6 @@
 #!/bin/bash
 
-file=content/logbook/index.toml
+__dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 cat <<EOF
 title="Logbook"
@@ -12,6 +12,6 @@ content="""
 
 This page was last updated on $(date +"%Y-%m-%d %T %z" )
 
-$(./get-logbook ${1})
+$(bash ${__dir}/get-logbook ${1})
 """
 EOF
