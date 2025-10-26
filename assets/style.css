@@ -1,0 +1,141 @@
+:root{
+	--background-color: #1a1c20;
+	--black-2: #434852;
+  --text: #e5e3df;
+}
+
+#map{
+	height: 360px;
+}
+
+body {
+	background-color: #1a1c20;
+	color: #e5e3df;
+	font-family: "Roboto Mono", monospace;
+	font-size: 1em;
+	line-height: 1.5rem;
+}
+
+main {
+	max-width: 45em;
+	margin: 0 auto;
+	padding: 0 1rem;
+}
+
+a {
+	font-family: "Roboto Mono", monospace;
+	font-size: 1em;
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	background-color: black;
+	color: white;
+}
+
+a:active {
+	color: orange;
+}
+
+nav a::before {
+	content: "/ ";
+	filter: brightness(85%);
+}
+
+nav a:hover{
+	text-decoration: underline;
+}
+
+nav a:hover::before {
+	text-decoration: none;
+	filter: brightness(100%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+	text-transform: uppercase;
+}
+
+h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
+	filter: brightness(85%);
+}
+
+p, ul, pre {
+	padding-left: 4em;
+}
+
+ul ul {
+	padding-left: 1em;
+}
+
+ul {
+	list-style: none;
+}
+
+li::before {
+	content: "— ";
+}
+
+
+hr {
+	border: 0 solid black;
+	filter: brightness(85%);
+}
+
+hr::after {
+	content: "--------------------------------------------------------------------------------"
+}
+
+pre {
+	font-family: Consolas, monospace;
+	margin: 0;
+}
+
+table {
+	width: 100%;
+	border: 0 ;
+	text-align: left;
+	padding:0;
+  background-color: var(--background-color);
+}
+
+table td,th {
+	border: 2px solid transparent;
+}
+
+table.logbook tbody tr:nth-child(odd) {
+	background-color: var(--black-2);
+}
+
+.gist {
+  font-size: 1em !important;
+}
+
+.gist .highlight {
+  font-size: 1em !important;
+  background-color: var(--background-color) !important;
+  color: var(--text) !important;
+}
+
+.gist .pl-s, .gist .pl-pds, .gist .pl-s .pl-pse .pl-s1, .gist .pl-sr, .gist .pl-sr .pl-cce, .gist .pl-sr .pl-sre, .gist .pl-sr .pl-sra {
+  font-size: 1em !important;
+  color: #117cf8 !important;
+}
+
+.gist .pl-smi, .gist .pl-s .pl-s1 {
+  font-size: 1em !important;
+  color: #6f7f8e !important;
+}
+
+.gist .blob-code-inner {
+  font-size: 1em !important;
+  color: #6c7a8b !important;
+}
+
+.gist-meta {
+  background-color: var(--background-color) !important;
+}

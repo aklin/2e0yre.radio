@@ -1,0 +1,17 @@
+#!/bin/bash
+
+file=content/logbook/index.toml
+
+cat <<EOF
+title="Logbook"
+slug="logbook"
+permalink="/logbook"
+content="""
+
+## QRZ Logbook Summary
+
+This page was last updated on $(date +"%Y-%m-%d %T %z" )
+
+$(./get-logbook ${1})
+"""
+EOF

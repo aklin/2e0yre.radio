@@ -1,0 +1,14 @@
+title="Resources"
+slug="resources"
+permalink="/resources"
+content="""
+## Resources
+A list of radio-related resources that I use. This is mostly for my own use.
+
+* **[Amateur Radio Ham Radio Maidenhead Grid Square Locator Map][levine]** -
+  A reverse Maidenhead locator.
+* **[whatsmylocator.com][wml]** - Maidenhead locator on a map.
+
+[wml]: https://www.whatsmylocator.co.uk/
+[levine]: https://www.levinecentral.com/ham/grid_square.php
+"""

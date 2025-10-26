@@ -1,0 +1,23 @@
+{{>default_head.html}}
+<article>
+{{content}}
+
+{{#show_extra_pages}}
+<div style="height: 4em"></div>
+<h2>Posts on this blog</h2>
+{{#pages}}
+<article class="post">
+	<header class="post-header">
+    	<h3 class="post-title">
+			<a href="{{permalink}}">{{title}}</a>
+		</h3>
+	</header>
+	<section class="post-excerpt">
+    	<p>{{summary}}</p>
+	</section>
+	{{>post_meta.html}}
+</article>
+{{/pages}}
+{{/show_extra_pages}}
+
+{{>foot.html}}

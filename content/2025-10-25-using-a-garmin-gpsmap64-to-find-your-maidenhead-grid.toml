@@ -1,0 +1,24 @@
+title = "Using a Garmin GPSMAP64 to find your Maidenhead grid"
+slug = "using-a-garmin-gpsmap64-to-find-your-maidenhead-grid"
+date = 2025-10-25
+
+hidden=false
+
+summary="You can use your Garmin to get Maidenhead, but it's not easy"
+tags = ["garmin", "gpsmap-64s"]
+
+content = """
+You _can_ use your Garmin to get Maidenhead, but it's not easy.
+
+I own a Garmin GPSMAP 64, which can display your grid reference in the [Maidenhead
+format][maidenhead].
+
+The problem is, there is no quick way to switch from Maidenhead to WGS84 and vice versa.
+You have to go into the settings, find the right sub-sub-menu, and activate it. When
+you want to go back, you have to do it all over again.
+
+I do wish that the setting could be saved in a Profile and switched more easily, this way
+you could switch the Garmin on, get your Maidenhead, and be on your way for contacts.
+
+[maidenhead]: https://en.wikipedia.org/wiki/Maidenhead_Locator_System
+"""

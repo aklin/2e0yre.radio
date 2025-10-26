@@ -1,0 +1,27 @@
+title = "RAYNET - First event at Tun Wells Half Marathon Feb 23 2025"
+slug = "first-raynet-event"
+date = 2025-10-25
+
+summary = "First event with Raynet, riding along with Patrick G0UXG"
+tags = ["raynet"]
+
+content = """
+My first event was the Royal Tunbridge Wells Half-Marathon on 2025-02-23.
+I went together with [Patrick G0UXG][patrick].
+
+The marshalls were wonderful, and the place where we were stationed had a good
+open view down the road. I got to use my binoculars, but the runners came close
+to us anyway so I didn't need to. I felt like an off-brand General Patton with a
+hi-vis jacket, but it was fun nontheless.
+
+Patrick took care of all the comms as it was my first event. Signal was good.
+I got to meet the Raynet ECU as well, a former Fire service command vehicle,
+re-purposed with a number of radios and comms equipment. Very good piece of kit.
+
+Roads had to be closed for a period of time, until an elderly lady wanted to
+go through. Someone from road traffic escorted her car down the nominally closed
+road, while the rest of the traffic management people shouted at each other
+on their radios. Very entertaining.
+
+[patrick]: https://qrz.com/db/G0UXG
+"""

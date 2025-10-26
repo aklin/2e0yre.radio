@@ -1,0 +1,43 @@
+title = "RAYNET - Hastings Half Marathon on Oct 5th 2025"
+slug = ""
+date = 2025-10-25
+
+summary = "Signal disaster, decent coffee"
+tags = ["raynet"]
+
+content = """
+The Hastings Half Marathon was a disaster in terms of signals. Hastings has
+a difficult topography and there wasn't a single location the repeater could
+be placed that covers the entire race area. I found 2-3 spots that sort-of worked,
+but I still had to relay a message multiple times for the Controller to hear me.
+
+I used two Baofengs for this event, one serving as the main radio and one for
+backup.
+
+All in all I take this as a positive because signal conditions aren't always
+great, and having some experience in bad signal conditions is only positive -
+if annoying at the time.
+
+I was a little bit unhappy with the Marshalls leaving their posts before the race
+was over. There were plenty of runenrs (most of them "walkers" by this point) still
+on, and I did hear on the radio about an older lady who collapsed and needed the
+emergency services dispatched at her location.
+
+I stayed at my post until the tail markers arrived. My location was on the pier,
+next to two coffee shops, so I wasn't entirely miserable.
+
+The one new bit of kit I had with me was the radio sling, which goes over your
+shoulder and holds the radio close to your head. I'll be using those again.
+
+<div id="map"></div>
+
+<script>
+const pos = [50.85510933429459, 0.5882086798426772]
+var map = L.map('map').setView(pos, 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+L.marker(pos).addTo(map);
+</script>
+"""

@@ -1,0 +1,80 @@
+#!/bin/bash
+
+invoked_at=$(date +"%Y-%m-%d %T %z" )
+
+function xtract(){
+	xmllint --html -xpath ${1} -
+}
+
+function get_header_pos(){
+	echo "${headers}" | grep -n "<th>${1}</th>" | cut -d : -f 1
+}
+
+
+function output_html_start() {
+	echo "<!-- ${invoked_at} -->
+<table class=\"logbook\"><thead><tr>
+<th>Date</th>
+<th>Callsign</th>
+<th>Band</th>
+<th>Mode</th>
+<th>Grid</th>
+<th>Country</th>
+<th>Operator</th>
+<!--<th>Comment</th>-->
+</tr></thead><tbody>"
+}
+
+function output_html_end() {
+  echo "</tbody></table>"
+}
+
+function output_html_row(){
+echo "<tr>
+<td><date>${date}</date></td>
+<td><a itescope itemtype=\"https://schema.org/callSign\" href=\"https://qrz.com/db/${de}\">${de}</a></td>
+<td>${band}</td>
+<td>${mode}</td>
+<td>${grid}</td>
+<td>${country}</td>
+<td>${op}</td>
+<!--<td></td>-->
+</tr>"
+}
+
+get_output(){
+output_html_start
+
+rows_data=$(echo "${table}" | xtract "//tr[td]" )
+num_rows=$(echo "${rows_data}" | grep -Fn '<tr>' | wc -l)
+
+for (( i=1; i<=${num_rows}; i++))
+do
+	row=$(echo "${rows_data}" | xtract "//tr[${i}]")
+	de=$(echo "${row}" | xtract "//td[${col_de}]/a/span/text()")
+	date=$(echo "${row}" | xtract "//td[${col_date}]/span/text()")
+	band=$(echo "${row}" | xtract "//td[${col_band}]/text()")
+	mode=$(echo "${row}" | xtract "//td[${col_mode}]/text()")
+	op=$(echo "${row}" | xtract "//td[${col_op}]/text()" | sed -e 's/&amp;/\&/g' | sed -z 's/\n/ /g')
+	grid=$(echo "${row}" | xtract "//td[${col_grid}]/span/text()")
+	country=$(echo "${row}" | xtract "//td[${col_country}]/text()")
+
+	output_html_row "${date}" "${country}" "${band}" "${de}" "${op}"
+done
+
+output_html_end
+}
+
+table=$(curl "https://logbook.qrz.com/lbstat/${1}/" | tidy 2>/dev/null | xtract "//table[@id=\"lsum\"]/tr")
+headers=$(echo "${table}" | xtract "//tr/th" | \
+xmllint --html -xpath "//th" - )
+
+col_de=$(get_header_pos "de")
+col_date=$(get_header_pos "date")
+col_band=$(get_header_pos "band")
+col_mode=$(get_header_pos "mode")
+col_grid=$(get_header_pos "grid")
+col_op=$(get_header_pos "op")
+col_country=$(get_header_pos "Country")
+
+get_output

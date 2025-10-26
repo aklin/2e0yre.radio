@@ -1,0 +1,12 @@
+title = "2E0YRE - Tony Klinakis Radio Website"
+description = ""
+keywords = ""
+image = ""
+#theme = ""
+
+index="index.md"
+url = "file:///C:/Users/rath/IdeaProjects/2e0yre/plaintext-web-theme/public"
+assets = "assets"
+
+
+author = "2E0YRE"

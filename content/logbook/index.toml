@@ -1,0 +1,82 @@
+title="Logbook"
+slug="logbook"
+permalink="/logbook"
+content="""
+
+## QRZ Logbook Summary
+
+This page was last updated on 2025-10-26 02:07:12 +0000
+
+<!-- 2025-10-26 02:07:12 +0000 -->
+<table class="logbook"><thead><tr>
+<th>Date</th>
+<th>Callsign</th>
+<th>Band</th>
+<th>Mode</th>
+<th>Grid</th>
+<th>Country</th>
+<th>Operator</th>
+<!--<th>Comment</th>-->
+</tr></thead><tbody>
+<tr>
+<td><date>2023-09-24</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GB2CM">GB2CM</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>JO01bm</td>
+<td>England</td>
+<td>Crossness Museum Special Event callsign </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td><date>2023-08-05</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GX3WIM">GX3WIM</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>IO91VG</td>
+<td>England</td>
+<td>Club Station Wimbledon & District Amateur Radio Society </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td><date>2023-08-01</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G5FRG">G5FRG</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>IO91wm</td>
+<td>England</td>
+<td>David Talaber </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td><date>2023-07-24</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G0LRX">G0LRX</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>IO91vl</td>
+<td>England</td>
+<td>Stuart Perry </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td><date>2023-07-21</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0KPU">M0KPU</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>JO01al</td>
+<td>England</td>
+<td>chris j weight </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td><date>2023-07-16</date></td>
+<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E0HEV">2E0HEV</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>IO91vl</td>
+<td>England</td>
+<td>Marc Fletcher </td>
+<!--<td></td>-->
+</tr>
+</tbody></table>
+"""

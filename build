@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm -rf public/*
+
+blades build
+mkdir -p public/assets
+
+cp -r assets/* public/assets/
