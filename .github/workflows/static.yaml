@@ -35,7 +35,7 @@ jobs:
         with:
           toolchain: stable
       - name: Build
-        run: sudo apt install -y libxml2-utils tidy && cargo install blades && ./build
+        run: sudo apt install -y libxml2-utils tidy && cargo install blades && scripts/create-logbook-page 2e0yre > content/logbook/index.toml scripts/build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
