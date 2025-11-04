@@ -40,6 +40,18 @@ jobs:
         with:
           path: "~/.cargo/bin"
           key: cargo-bin-cache
+      - name: Cache tidy
+        uses: actions/cache@v4
+        id: cache-tidy
+        with:
+          path: "/usr/bin/tidy"
+          key: cache-tidy
+      - name: Cache xmllint
+        uses: actions/cache@v4
+        id: cache-xmllint
+        with:
+          path: "/usr/bin/xmllint"
+          key: cache-xmllint
       - name: Install blades
         env:
           CACHE_HIT: ${{steps.cache-cargo-bin.outputs.cache-hit}}
@@ -48,7 +60,28 @@ jobs:
             echo "Blades cache hit"
           else
             cargo install blades
-          fi      
+          fi
+          
+      - name: Install tidy
+        env:
+          CACHE_HIT: ${{steps.cargo-bin-cache.outputs.cache-hit}}
+        run: |
+          if [[ "$CACHE_HIT" == 'true' ]]; then
+            echo "tidy cache hit"
+          else
+            sudo apt update && sudo apt install -y tidy
+          fi
+
+      - name: Install xmllint
+        env:
+          CACHE_HIT: ${{steps.cache-xmllint.outputs.cache-hit}}
+        run: |
+          if [[ "$CACHE_HIT" == 'true' ]]; then
+            echo "xmllint cache hit"
+          else
+            sudo apt update && sudo apt install -y libxml2-utils
+          fi
+
       - name: Dependencies
         run: sudo apt update && sudo apt install make libxml2-utils tidy
       - name: Set script permissions
