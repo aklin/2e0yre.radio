@@ -35,9 +35,7 @@ jobs:
         with:
           toolchain: stable
       - name: Dependencies
-        uses: daaku/gh-action-apt-install@v4
-        with:
-          packages: make libxml2-utils tidy
+        run: sudo apt update && sudo apt install make libxml2-utils tidy
       - name: Set script permissions
         run: chmod +x scripts/build && chmod +x scripts/create-logbook-page && chmod +x scripts/get-logbook
       - name: Build
