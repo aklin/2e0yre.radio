@@ -6,7 +6,7 @@ image = ""
 #theme = ""
 
 index="index.md"
-url = "file:///C:/Users/rath/IdeaProjects/2e0yre/plaintext-web-theme/public"
+url = "https://2e0yre.radio/public"
 assets = "assets"
 
 
