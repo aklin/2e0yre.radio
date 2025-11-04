@@ -1,0 +1,19 @@
+title = "Acknowledgments"
+slug = "acknowledgments"
+date = 2025-11-03
+tags = ["website"]
+
+content = """
+## Thank you
+
+A place to say thank you to various people, projects, and organisations who have helped
+me or that I found useful
+
+### General
+
+* To the Cray Valley Radio Society for helping me obtain my Intermediate license
+
+### Website
+
+* To https://flagicons.lipis.dev/ for their country icons - available under the MIT license
+"""
