@@ -34,10 +34,14 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+      - name: Dependencies
+        uses: daaku/gh-action-apt-install@v4
+        with:
+          packages: make libxml2-utils tidy
       - name: Set script permissions
         run: chmod +x scripts/build && chmod +x scripts/create-logbook-page && chmod +x scripts/get-logbook
       - name: Build
-        run: sudo apt update && sudo apt install -y make libxml2-utils tidy && cargo install blades && make update
+        run: cargo install blades && make update
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
