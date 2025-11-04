@@ -34,13 +34,14 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+      - name: Set script permissions
+        run: chmod +x scripts/build && chmod +x scripts/create-logbook-page && chmod +x scripts/get-logbook
       - name: Build
-        run: sudo apt install -y libxml2-utils tidy && cargo install blades && ./build
+        run: sudo apt install -y libxml2-utils tidy && cargo install blades && scripts/create-logbook-page 2e0yre > content/logbook/index.toml scripts/build && ls && ls public
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Upload entire repository
-          path: 'public'
+          path: 'public/'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
