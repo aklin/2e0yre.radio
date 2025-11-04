@@ -39,10 +39,10 @@ jobs:
         id: cache-cargo-bin
         with:
           path: "~/.cargo/bin"
+          key: cargo-bin-cache
       - name: Install blades
         env:
-          CACHE_HIT: ${{steps.cache-valgrind.outputs.cache-hit}}
-          VALGRIND_VERSION: ${{secrets.VALGRIND_VERSION}}
+          CACHE_HIT: ${{steps.cache-cargo-bin.outputs.cache-hit}}
         run: |
           if [[ "$CACHE_HIT" == 'true' ]]; then
             echo "Blades cache hit"
