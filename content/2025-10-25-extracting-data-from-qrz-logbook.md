@@ -1,6 +1,6 @@
 +++
 title = "Extracting data from QRZ's logbook"
-slug = "extracting-data-from-qrz-logbook"
+slug = "2025-10-25-extracting-data-from-qrz-logbook"
 date = 2025-10-25
 use_gist = true
 tags = ["bash", "qrz.com", "website"]
