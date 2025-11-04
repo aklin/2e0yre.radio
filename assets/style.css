@@ -87,7 +87,7 @@ hr {
 }
 
 hr::after {
-	content: "--------------------------------------------------------------------------------"
+	content: "<---------------------------------------------------------------------------->"
 }
 
 pre {
@@ -109,6 +109,21 @@ table td,th {
 
 table.logbook tbody tr:nth-child(odd) {
 	background-color: var(--black-2);
+}
+
+td date {
+  min-width: 6em;
+  display: inline-block;
+}
+
+td.country {
+  text-align: center;
+  max-width: 36px;
+}
+
+td.country .fi {
+  padding: 0;
+  margin: 0;
 }
 
 .gist {

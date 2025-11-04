@@ -1,32 +1,18 @@
 title="Logbook"
 slug="logbook"
 permalink="/logbook"
+date="2025-10-25"
+date_updated="2025-11-04"
 content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2025-10-26 13:23:06 +0000
+This page was last updated on 2025-11-04 00:42:50 +0000
 
-<!-- 2025-10-26 13:23:06 +0000 -->
-<table class="logbook"><thead><tr>
-<th>Date</th>
-<th>Callsign</th>
-<th>Band</th>
-<th>Mode</th>
-<th>Grid</th>
-<th>Country</th>
-<th>Operator</th>
-<!--<th>Comment</th>-->
-</tr></thead><tbody>
-<tr>
-<td><date>2025-05-03</date></td>
-<td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SY1AWR">SY1AWR</a></td>
-<td>2m</td>
-<td>FM</td>
-<td></td>
-<td>Greece</td>
-<td></td>
-<!--<td></td>-->
-</tr>
-</tbody></table>
+---
+### 2e0yre Entries
+<!-- 2025-11-04 00:42:50 +0000 --> <table class="logbook"><thead><tr> <th></th> <th>Date</th> <th>Callsign</th> <th>Band</th> <th>Mode</th> <th>Grid</th> <th>Operator</th> <!--<th>Comment</th>--> </tr></thead><tbody> <tr> <td class=country><span title="Greece" class="fi fi-gr"></span></td> <td><date>2025-05-03</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SY1AWR">SY1AWR</a></td> <td>2m</td> <td>FM</td> <td></td> <td></td> <!--<td></td>--> </tr> </tbody></table>
+---
+### m7xfx Entries
+<!-- 2025-11-04 00:42:50 +0000 --> <table class="logbook"><thead><tr> <th></th> <th>Date</th> <th>Callsign</th> <th>Band</th> <th>Mode</th> <th>Grid</th> <th>Operator</th> <!--<th>Comment</th>--> </tr></thead><tbody> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-09-24</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GB2CM">GB2CM</a></td> <td>2m</td> <td>FM</td> <td>JO01bm</td> <td>Crossness Museum Special Event callsign </td> <!--<td></td>--> </tr> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-08-05</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GX3WIM">GX3WIM</a></td> <td>2m</td> <td>FM</td> <td>IO91VG</td> <td>Club Station Wimbledon & District Amateur Radio Society </td> <!--<td></td>--> </tr> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-08-01</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G5FRG">G5FRG</a></td> <td>2m</td> <td>FM</td> <td>IO91wm</td> <td>David Talaber </td> <!--<td></td>--> </tr> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-07-24</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G0LRX">G0LRX</a></td> <td>2m</td> <td>FM</td> <td>IO91vl</td> <td>Stuart Perry </td> <!--<td></td>--> </tr> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-07-21</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0KPU">M0KPU</a></td> <td>2m</td> <td>FM</td> <td>JO01al</td> <td>chris j weight </td> <!--<td></td>--> </tr> <tr> <td class=country><span title="England" class="fi fi-gb-eng"></span></td> <td><date>2023-07-16</date></td> <td><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E0HEV">2E0HEV</a></td> <td>2m</td> <td>FM</td> <td>IO91vl</td> <td>Marc Fletcher </td> <!--<td></td>--> </tr> </tbody></table>
 """

@@ -2,16 +2,43 @@
 
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
+function get_logbook_for_callsign(){
+  echo "---"
+  echo "### ${1} Entries"
+  echo $(bash "${__dir}/get-logbook" "${1}")
+}
+
+function get_params() {
+  local logbook
+  for callsign in "$@"
+  do
+    logbook=$(get_logbook_for_callsign ${callsign})
+    logbook=$(echo "${logbook}" | sed -e 's#England#<span title="England" class="fi fi-gb-eng"></span>#g')
+    logbook=$(echo "${logbook}" | sed -e 's#Greece#<span title="Greece" class="fi fi-gr"></span>#g')
+    echo "${logbook}"
+  done
+}
+
+function country_flags() {
+  read text
+  echo "${text}"
+  # text=$( <"${text}")
+  # text=$(sed -i 's/Greece/<span class="fi fi-gr"></span>/g' <"${text}")
+  # echo "${text}"
+}
+
 cat <<EOF
 title="Logbook"
 slug="logbook"
 permalink="/logbook"
+date="2025-10-25"
+date_updated="$(date --iso-8601)"
 content="""
 
 ## QRZ Logbook Summary
 
 This page was last updated on $(date +"%Y-%m-%d %T %z" )
 
-$(bash ${__dir}/get-logbook ${1})
+$(get_params "$@")
 """
 EOF
