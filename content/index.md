@@ -10,7 +10,7 @@ paginate_by = 10
 
 ## 2E0YRE
 
-My name is Tony Klinakis and my callsign is 2E0YRE. I hold an Intermediate license.
+My name is Tony and my callsign is 2E0YRE. I hold an Intermediate license.
 I used to be a member of the [Cray Valley Radio Society][cvrs], which helped me with my
 license training. Many thanks to them.
 
@@ -25,6 +25,18 @@ This page documents my radio exploits, such as they might be.
 * **ITU Zone**: 28
 * **IARU Locator**: JO01GD69
 
+<div id="map"></div>
+
+<script>
+const pos = [51.169403271319716, 0.5529542210992588]
+var map = L.map('map').setView(pos, 12);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+L.marker(pos).addTo(map);
+</script>
+
 ### Contact
 An email has not yet been set up for this domain.
 
@@ -32,7 +44,7 @@ You can contact me on [QRZ][qrz].
 
 ### Equipment
 
-I own a number of Baofengs and a Yaesu FT-817. My favourite handheld radio has been
+I own a number of Baofengs and a [Yaesu FT-817][ft817]. My favourite handheld radio has been
 a Quangsheng which I have lost. It was my favourite because it could be charged via
 USB-C, which means you didn't need a dedicated charger. I used to take it with me
 everywhere, and ultimately I misplaced it.
@@ -40,3 +52,6 @@ everywhere, and ultimately I misplaced it.
 [qrz]: https://qrz.com/db/2e0yre
 [cvrs]: https://cvrs.uk/
 [raynet]: https://www.raynet-uk.net/
+[ft817]: https://www.rigpix.com/yaesu/ft817.htm
+
+---
