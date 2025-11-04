@@ -34,12 +34,27 @@ jobs:
       - uses: actions-rs/toolchain@v1
         with:
           toolchain: stable
+      - name: Cache blades
+        uses: actions/cache@v2
+        id: cache-cargo-bin
+        with:
+          path: "~/.cargo/bin"
+      - name: Install blades
+        env:
+          CACHE_HIT: ${{steps.cache-valgrind.outputs.cache-hit}}
+          VALGRIND_VERSION: ${{secrets.VALGRIND_VERSION}}
+        run: |
+          if [[ "$CACHE_HIT" == 'true' ]]; then
+            echo "Blades cache hit"
+          else
+            cargo install blades
+          fi      
       - name: Dependencies
         run: sudo apt update && sudo apt install make libxml2-utils tidy
       - name: Set script permissions
         run: chmod +x scripts/build && chmod +x scripts/create-logbook-page && chmod +x scripts/get-logbook
       - name: Build
-        run: cargo install blades && make update
+        run: blades all
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
