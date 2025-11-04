@@ -3,7 +3,7 @@ title = "Extracting data from QRZ's logbook"
 slug = "extracting-data-from-qrz-logbook"
 date = 2025-10-25
 use_gist = true
-tags = ["bash", "qrz.com"]
+tags = ["bash", "qrz.com", "website"]
 +++
 
 When I was creating this website, I wanted to dispay my logbook
