@@ -16,7 +16,7 @@ function output_html_start() {
 <table class=\"logbook\"><thead><tr>
 <th></th>
 <th>Date</th>
-<th>Callsign</th>
+<th>Station</th>
 <th>Band</th>
 <th>Mode</th>
 <th>Grid</th>
@@ -33,7 +33,7 @@ function output_html_row(){
 echo "<tr>
 <td class="country">${country}</td>
 <td><date>${date}</date></td>
-<td class="callsign"><a itescope itemtype=\"https://schema.org/callSign\" href=\"https://qrz.com/db/${de}\">${de}</a></td>
+<td class="station"><a itescope itemtype=\"https://schema.org/callSign\" href=\"https://qrz.com/db/${de}\">${de}</a></td>
 <td>${band}</td>
 <td>${mode}</td>
 <td>${grid}</td>
