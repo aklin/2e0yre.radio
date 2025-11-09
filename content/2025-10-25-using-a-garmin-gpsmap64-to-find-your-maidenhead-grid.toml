@@ -20,5 +20,24 @@ you want to go back, you have to do it all over again.
 I do wish that the setting could be saved in a Profile and switched more easily, this way
 you could switch the Garmin on, get your Maidenhead, and be on your way for contacts.
 
+---
+
+### Update 2025-11-09:
+
+It is possible to display two position formats on the screen, when using Data Fields.
+You can set up one data field to display Lat/Lon, and one to use the selected
+position format. This still means that you change the position format on the device
+to Maidenhead, and therefore if you use any other functions (ie. Mark), you
+get the Maidenhead reference which is probably not what you want.
+
+I assume if you're willing to set up the Garmin for a radio excursion, or if you're willing
+to fiddle with it mid-excursion (and possibly get the setting wrong) you'll be okay.
+The fact remains that sadly, the Garmin was not made for this use-case and it's not
+really supported.
+
+For those interested the relevant section is called _Customizing the Data Fields_ on
+the [manual, page 8][manual].
+
+[manual]: https://www8.garmin.com/manuals/webhelp/gpsmap64/EN-US/GPSMAP_64_OM_EN-US.pdf
 [maidenhead]: https://en.wikipedia.org/wiki/Maidenhead_Locator_System
 """
