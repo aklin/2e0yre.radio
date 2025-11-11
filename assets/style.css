@@ -130,6 +130,14 @@ td.country .fi {
   margin: 0;
 }
 
+footer {
+  padding: 1em 0 2em 0;
+}
+
+footer small img {
+  margin: 0;
+}
+
 .gist {
   font-size: 1em !important;
 }
