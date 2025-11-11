@@ -1,7 +1,10 @@
 :root{
-	--background-color: #1a1c20;
+	--background-color: #1e1e2e;
 	--black-2: #434852;
-  --text: #e5e3df;
+  --text: #cdd6f4;
+  --highlight: #fab387;
+  --hover: #f9e2af;
+  --blue: #89b4fa;
 }
 
 #map{
@@ -9,8 +12,8 @@
 }
 
 body {
-	background-color: #1a1c20;
-	color: #e5e3df;
+	background-color: var(--background-color);
+	color: var(--text);
 	font-family: "Roboto Mono", monospace;
 	font-size: 1em;
 	line-height: 1.5rem;
@@ -25,7 +28,7 @@ main {
 a {
 	font-family: "Roboto Mono", monospace;
 	font-size: 1em;
-	color: white;
+	color: var(--blue);
 }
 
 nav a {
@@ -34,12 +37,13 @@ nav a {
 
 a:hover {
 	text-decoration: underline;
-	background-color: black;
-	color: white;
+	/* background-color: var(--hover); */
+	/* color: var(--background-color); */
 }
 
 a:active {
-	color: orange;
+  background-color: unset;
+	color: var(--highlight);
 }
 
 nav a::before {
