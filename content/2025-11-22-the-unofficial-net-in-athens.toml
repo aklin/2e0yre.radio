@@ -25,6 +25,6 @@ L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau
 }).addTo(map);
 L.marker(pos).addTo(map);
 L.marker(pos2).addTo(map);
-L.marker(line).addTo(map);
+L.polyline(line).addTo(map);
 </script>
 """
