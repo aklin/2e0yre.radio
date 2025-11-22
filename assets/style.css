@@ -88,6 +88,7 @@ li::before {
 hr {
 	filter: brightness(85%);
   border-top: 2px dashed gray;
+  border-bottom: 0;
   min-width: 100%;
 }
 
