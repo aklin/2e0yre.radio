@@ -1,0 +1,30 @@
+title = "The Unofficial net in Athens"
+slug = "the-unofficial-net-in-athens"
+date = 2025-11-22
+tags=["greece"]
+content = """
+There's an unofficial net in Athens, just outside the
+2m band. You will hear amateurs who will often nip in
+and out of other bands - but you will never hear a callsign.
+There's an element of the old CB code - nicknames and first
+names only.
+
+Anyway I made a contact from Kesariani hill all the way to
+Nikea hospital today, which isn't too bad.
+
+<div id="map"></div>
+
+<script>
+  const pos=[37.96241055701434, 23.767676148513566]
+  const pos2=[37.972023236412106, 23.661288322260784]
+const line=[pos, pos2]
+var map = L.map('map').setView(pos, 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+L.marker(pos).addTo(map);
+L.marker(pos2).addTo(map);
+L.marker(line).addTo(map);
+</script>
+"""
