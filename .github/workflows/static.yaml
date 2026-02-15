@@ -79,7 +79,7 @@ jobs:
           if [[ "$CACHE_HIT" == 'true' ]]; then
             echo "xmllint cache hit"
           else
-            sudo apt update && sudo apt install -y libxml2-utils
+            sudo apt update && sudo apt install -y libxml2-utils make
           fi
 
       - name: Dependencies
@@ -87,7 +87,7 @@ jobs:
       - name: Set script permissions
         run: chmod +x scripts/build && chmod +x scripts/create-logbook-page && chmod +x scripts/get-logbook
       - name: Build
-        run: blades all
+        run: make all
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -86,12 +86,10 @@ li::before {
 
 
 hr {
-	border: 0 solid black;
 	filter: brightness(85%);
-}
-
-hr::after {
-	content: "<---------------------------------------------------------------------------->"
+  border-top: 2px dashed gray;
+  border-bottom: 0;
+  min-width: 100%;
 }
 
 pre {

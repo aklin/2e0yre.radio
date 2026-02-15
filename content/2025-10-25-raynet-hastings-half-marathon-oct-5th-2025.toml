@@ -36,7 +36,7 @@ const pos = [50.85510933429459, 0.5882086798426772]
 var map = L.map('map').setView(pos, 16);
 L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
     maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> | <a href="https://2e0yre.radio">2E0YRE</a>'
 }).addTo(map);
 L.marker(pos).addTo(map);
 </script>
