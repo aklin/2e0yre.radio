@@ -1,0 +1,114 @@
+title = "RAYNET Deal Half Marathon - 15th Feb 2026"
+slug = "raynet-deal-half-mar-15-feb-26"
+date = 2026-02-15
+
+summary="Horrible day, excellent marshalls"
+tags = ["raynet"]
+
+content = """
+The day started with the wrong decision on clothes. I had already decided what
+to wear on the previous day, but the previous day (Valentine's day) was lovely.
+The next day was not.
+
+I put on a jumper, warm leggings, and my motorcycle jeans, and a Kombat UK
+trouser overlay for some extra heat. I  was expecting a somewhat sunny day
+with maybe some rain here and there, and I got heavy rain, occasional hail,
+and strong wind (about 25mph). At least I had some gloves, neck buff, and
+winter cap which did a lot of heavy lifting.
+
+![Weather forecast](https://2e0yre.radio/assets/2026-02-15/weather.jpg "Weather at about 11AM when the first runners reached us")
+
+A quick reccy on a previous day revealed to me that the radio point looks down
+a straight, and it would be an excellent idea to bring out the binoculars
+again. So I put them in the bag.
+
+Early on in the day I went over a flooded bit of road and my boots got soaked.
+This is because I close the leather boots instead of my proper motorcycle footwear,
+which is properly weather proofed. Visibility on the way was terrible - maybe 300
+meters at a stretch - and it was going to get worse as the day went on. I arrived
+at around 9:50 in the morning. The race would begin at 10:30, with the early
+starters making a move at 10. About 260 participants in all. The roll call went
+out, I reported in good signal and good cell reception for me and the marshall.
+
+Nigel the marshall was kind enough to let me sit in his car while we were talking
+about the race. He had marshalled this point for the last three years, and had ran
+the marathon himself in previous years. Like myself he was expecting a good day, hoping
+to leave the car at the start and cycle down to the control point. Nigel was quite well
+prepared, my instructions said I should have a first aid kit so I looted the one from my
+camping bag - but he had a blanket, an old coat he was happy to part with for the benefit
+of a cold runner, space blankets, some chocolate, and hot coffee in a thermos. Another marshall
+turned up later on, but he was in his own car so I didn't catch his name. Good chap though.
+
+The first runners reached us shortly after 11 and all three of us went out. Nigel said I
+could stay in the car and he'd shout the numbers of the runners at me, but I felt bad
+leaving them in the rain while I was chilling in the warm so I got out as well. They
+were better clothed than me, but that didn't figure in the shame equation.
+
+The first three male runners went past. Nigel shouted their numbers at me but I confirmed
+them visually myself - and still managed to relay them wrong. I usually write them down
+you see, and relay them at my leisure when all three males or females have gone past,
+but today it was pissing it down so I couldn't write anything down. So I keyed up the mic
+as soon as they went past.
+
+Then a few more male runners, and the first female runner. I key up the mic again.
+Then, the early starters. I clapped and cheered and warned about the potholes just
+like the marshalls were doing. Then I realised that the old ladies in the early starter
+pack were still, in fact, female, and I should've relayed their numbers, and I hadn't.
+
+Then another group of runners and the next female runner. I key up the mic again to relay
+her number as well as the fact I missed the previous female ladies. Oh well.
+
+A little while later someone dropped out and Nigel took care of him, put him in the car
+with a blanket, some warm coffee, and some chocolate. At this point I was shaking so I
+asked if I could drop out as well - but the wind was blowing so my request wasn't heard.
+
+Despite the fact that the marshalls were in a WhatsApp group, Nigel immediatelly told me
+to report the drop-out and ask for the evac vehicle. That's what I mean about good marshalls,
+RAYNET are basically redundant since everyone has phones and the internet, but sometimes it's
+faster to radio in instead of fishing out a phone with cold and wet fingers. Control relayed
+my request for evac to the race directors, and over the next hour or so Nigel would keep
+checking on the runner (Aaron I think his name was) while the other marshall continued
+to cheer on the very cold runners. "This is the hard bit" he told them. I don't actually
+know if it's the hard bit, he confessed to me, but it's good for their morale to hear it.
+I agree.
+
+Some time went on and Nigel asked for an update on the evac vehicle, as the casualty (Aaron)
+was still in the back of his car. As I was keying up the mic, a car with two high-vis sitting
+on the front pulled up next to us. "Evacuation vehicle is here" I confidently reported. Only
+it wasn't, the two marshalls who jumped out were following the tail marker, who I managed to
+miss amidst the chaos, and were picking up the signs. Nigel would drive Aaron to the start
+point himself, so I corrected my earlier message and updated control that the casualty was
+on route and no evac was needed. "See you next year" said the marshalls to themselves and me,
+jumped in their cars, and left.
+
+I jumped on the bike in turn and went up where the runners had come from, eventually found
+the ECU (that's the Emergency Communications Vehicle - the pride and joy of Kent RAYNET),
+and spent some time in the van to warm up myself to the degree that I could brave the cold
+once more.
+
+I said my goodbyes, jumped on the bike, eventually became aware of an ambulance that was
+waiting for me to move so he could park, and left. Visibility was worse on the way back,
+I couldn't do more than 60mph for most of the way on the motorway because I wouldn't dare.
+I followed other cars for the most part, because their going into puddles alerted me to
+the existence of said puddles, and I was able to avoid them. Very clever on my part.
+I did, however, spot a blue sedan with RAYNET stickers and an antenna on top, just another
+volunteer going home. Gave him a thumbs up as I went past.
+
+If I were to attend the Deal half marathon again, I would make some changes to my clothing.
+Specifically, I would ditch the helmet and buy a car.
+
+
+<div id="map"></div>
+
+<script>
+const pos = [51.17935676524765, 1.328534640554662]
+var map = L.map('map').setView(pos, 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+L.marker(pos).addTo(map);
+</script>
+
+
+"""
