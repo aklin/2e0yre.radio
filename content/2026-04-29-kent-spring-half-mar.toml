@@ -1,0 +1,36 @@
+title = "Kent Spring Half Mar-19th-mar-2026"
+slug = "kent-spring-half-mar"
+date = 2026-04-29
+
+summary="A standard half mar"
+
+content = """
+No drama this time, except that I was a little late getting up.
+I didn't make it to the briefing point in time, but I got to my
+marshall point about 10 minutes before the race began.
+
+<div id="map"></div>
+
+Single radio, the Quangsheng, split frequency operation on the MB9ABH repeater. The signal
+was touch and go - at times it was perfect, and at other times there was QRN that meant
+I couldn't get a word.
+
+I nipped around the Ashford Golf Club for a coffee when there was a lull in
+the race. The staff are surely not accustomed to serving yellow-vested radio-totting
+bearded patrons. Snotty service, which I can forgive, horrible coffee, which I cannot.
+
+I just realised something as I was writing this blog post. I was looking
+for the coordinates for my marshall point, M3. Only I wasn't there. I was at M2,
+which was just around the corner. What can I say - changes in personal life (the
+good kind) must have made me a little absent-minded.
+
+<script>
+const pos1 = [51.170667, 0.852727]
+var map = L.map('map').setView(pos1, 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+L.marker(pos).addTo(map);
+</script>
+"""
