@@ -24,13 +24,36 @@ for the coordinates for my marshall point, M3. Only I wasn't there. I was at M2,
 which was just around the corner. What can I say - changes in personal life (the
 good kind) must have made me a little absent-minded.
 
+The drive to Ashford was wonderful. A sunny and mildly windy day, and a slight delay
+in leaving the house, meant that I could ride in a manner that riders call "spirited".
+That means you still respect the limits around villages - you don't want to a) get
+a reputation with the locals, or b) see any yellow cameras sprout up - but nationals
+are fair game. And fair game they were.
+
+The marshalls were lovely. I didn't get their names but they were gentle people, former
+runners themselves. After the race I went back home, in a less spirited but _still_ spirited
+fashion, and went on with my day.
+
 <script>
-const pos1 = [51.170667, 0.852727]
-var map = L.map('map').setView(pos1, 16);
+const markers = [
+  {
+    lat: 51.170667,
+    lon: 0.852727,
+    popupContent: "<b>M2</b>"
+  },
+  {
+    lat: 51.171727,
+    lon: 0.850965,
+    popupContent: "<b>M3</b>"
+  }
+]
+
+const firstMarker = markers[0];
+var map = L.map('map').setView([firstMarker.lat, firstMarker.lon], 16);
 L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-L.marker(pos).addTo(map);
+markers.forEach(mark => L.marker(mark).addTo(map).bindPopup(mark.popupContent))
 </script>
 """
