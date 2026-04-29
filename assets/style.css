@@ -69,7 +69,7 @@ h1::before, h2::before, h3::before, h4::before, h5::before, h6::before {
 }
 
 p, ul, pre {
-	padding-left: 4em;
+	padding-left: 1em;
 }
 
 ul ul {
