@@ -1,0 +1,56 @@
+title = "On Your Bike Gravesend"
+slug = "2026-05-10-oyb-gravesend"
+date = 2026-05-10
+tags = ["raynet"]
+
+content = """
+What a fun day. I joined the marshalls early in the morning at around 8:30 -
+a rarity given my previous track record.
+
+<div id="map"></div>
+
+The marshalls were Sheila, Mark, x, x, all members of the local Rotary club.
+Sheila had brought some lovely homemade sausage rolls which complimented
+my Twinkie breakfast. Unfortunately there was no coffee nearby, but I was
+somehow able to manage. Aileen, also of the Rotary, joined us later to say
+hello. I understand she does the social media and PR for the Rotary. Lovely
+lady, but then again, so were all of them.
+
+The race was a very orderly, civilised, and wholesome affair. The bicyclists
+(I refuse to call them bikers due to personal bias) would dismount at the CP,
+log their number with the marshalls, and receive their Penguin, or squash,
+or water, or any combination of the above - and then be on their way.
+I think this particular race was not timed, it was a charity event ran
+by the Rotary for the benefit of ADSS, the Alzheimer's charity.
+
+Electric bikes, bikes with baskets, and multi-child-seat-at-the-back bikes
+were all present.
+
+Standard RAYNET drill for this one, report the first male and female riders.
+There were three simultaneous races on 15, 30, and 45 mile routes. The 45-ers
+did not stop at CP1 - they didn't even pass us by - so I didn't get their
+numbers.
+
+One point of professionalism for me though, the Quangsheng was not entirely charged
+and I was on the last bar towards the end of the event. I had thought to myself that
+this is okay because I have a battery bank - but the bank created so much noise that
+the radio wouldn't pick up transmissions. And now we know.
+
+<script>
+const markers = [
+  {
+    lat: 51.428955,
+    lon: 0.464859,
+    popupContent: "<b>CP1</b>"
+  }
+]
+
+const firstMarker = markers[0];
+var map = L.map('map').setView([firstMarker.lat, firstMarker.lon], 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+markers.forEach(mark => L.marker(mark).addTo(map).bindPopup(mark.popupContent))
+</script>
+"""
