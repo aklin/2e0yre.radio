@@ -2,16 +2,16 @@ title="Logbook"
 slug="logbook"
 permalink="/logbook"
 date="2025-10-25"
-date_updated="2026-05-11"
+date_updated="2026-09-01"
 content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2026-05-11 18:48:04 +0100
+This page was last updated on 2026-09-01 22:29:52 +0100
 
----
-### 2e0yre Entries
-<!-- 2026-05-11 18:48:04 +0100 -->
+<hr>
+<h3>2e0yre Entries</h3>
+<!-- 2026-09-01 22:29:52 +0100 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -43,9 +43,9 @@ This page was last updated on 2026-05-11 18:48:04 +0100
 <!--<td></td>-->
 </tr>
 </tbody></table>
----
-### m7xfx Entries
-<!-- 2026-05-11 18:48:08 +0100 -->
+<hr>
+<h3>m7xfx Entries</h3>
+<!-- 2026-09-01 22:29:53 +0100 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
