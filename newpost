@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+DATE=$(date -Idate)
+TITLE="$(echo $*)"
+SLUG="${DATE}-$(echo ${TITLE} | tr '[:upper:]' '[:lower:]' | tr '[:blank:]' -)"
+
+echo $SLUG
+
+cat << EOF > "./content/${SLUG}.md"
++++
+title = "${TITLE}"
+slug = "${SLUG}"
+date = "${DATE}"
+tags = []
++++
+
+Your post here
+<div id="map"></div>
+
+<script>
+const markers = [
+  {
+    lat: 51.1611,
+    lon: 0.544022,
+    popupContent: "<b>Wimpey Field Natural Reserve (GB-6545)</b>"
+  }
+]
+
+const firstMarker = markers[0];
+var map = L.map('map').setView([firstMarker.lat, firstMarker.lon], 16);
+L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+}).addTo(map);
+markers.forEach(mark => L.marker(mark).addTo(map).bindPopup(mark.popupContent))
+</script>
+
+EOF
