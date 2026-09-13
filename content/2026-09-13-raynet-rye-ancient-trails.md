@@ -14,7 +14,7 @@ I didn't even bother packing my sunglasses in the morning.
 
 <div id="map"></div>
 
-<p><img src="https://2e0yre.radio/assets/2026-09-13/at-the-start.jpg" alt="At the registration" title="At the registration" height="400"></p>)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/at-the-start.jpg" alt="At the registration" title="At the registration" height="400"></p>
 
 ## The good:
 
@@ -23,16 +23,16 @@ He announced the start of the race. I wish I could've filmed it. It was my job t
 the start of the run back to control so I had one hand on one radio and lacked the mental
 capacity to have my other hand occupied as well, 
 
-<p><img src="https://2e0yre.radio/assets/2026-09-13/town-crier.jpg" alt="Rye town crier" title="Rye town crier" height="400"></p>)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/town-crier.jpg" alt="Rye town crier" title="Rye town crier" height="400"></p>
 
 #### The view
 
 It was the best view on the course. You could see all the way down Rye almost to
 the finish line, as I kept telling runners ("nearly in sight!"). Just look at it
 
-<p><img src="https://2e0yre.radio/assets/2026-09-13/the-view.jpg" alt="The view" title="The view" height="400"></p>)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/the-view.jpg" alt="The view" title="The view" height="400"></p>
 
-<p><img src="https://2e0yre.radio/assets/2026-09-13/view-front.jpg" alt="The view - front" title="The view - front" height="400"></p>)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/view-front.jpg" alt="The view - front" title="The view - front" height="400"></p>
 
 #### The weather
 
@@ -52,7 +52,7 @@ up in a city. Quite a few runners said to us "You guys have the best view" and I
 to respond "I'm just here for the smell". Yes I know, banger. It became a running joke
 after a while. Running... get it? Ok I'll shut up.
 
-<p><img src="https://2e0yre.radio/assets/2026-09-13/the-red-barn.jpg" alt="The red barn" title="The red barn" height="400"></p>)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/the-red-barn.jpg" alt="The red barn" title="The red barn" height="400"></p>
 
 #### The frequency change
 
