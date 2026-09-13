@@ -9,8 +9,8 @@ tags = []
 Today my job was to relay the start of the race and then relocate to MP131.
 I managed to get there nice and early, and I enjoyed a smoked salmon and egg
 lunch at the Whitehouse later on. Good marshalls. I had been checking the weather
-for days beforehand and all forecasts were preparing me for a good deal of rain.
-I didn't even bother packing my sunglasses in the morning.
+for days beforehand and all forecasts were preparing me for a good deal of rain,
+so I didn't even bother packing my sunglasses in the morning.
 
 <div id="map"></div>
 
@@ -20,8 +20,10 @@ I didn't even bother packing my sunglasses in the morning.
 
 #### The town crier
 He announced the start of the race. I wish I could've filmed it. It was my job to relay
-the start of the run back to control so I had one hand on one radio and lacked the mental
-capacity to have my other hand occupied as well, 
+the start of the run back to control so I was focusing on that. I'm of the opinion
+that events should be experienced rather than recorded, but now I wish I was recording
+as well as experiencing. Plenty of people were though, if I find a video I'll put it up
+here.
 
 <p><img src="https://2e0yre.radio/assets/2026-09-13/town-crier.jpg" alt="Rye town crier" title="Rye town crier" height="400"></p>
 
@@ -42,21 +44,21 @@ A bit of rain at the start but then it became sunny. I was quite happy with that
 
 First time using it in anger. Fantastic bit of kit, and finally something I enjoy
 programming directly from the keypad, rather than going on CHIRP. I packed two batteries
-but one was more than plenty.
+but one was plenty.
 
 ## The bad
 
 #### The smell
- I got used to it after a while, but we were next to a barn and I grew
+I got used to it after a while, but we were next to a barn and I grew
 up in a city. Quite a few runners said to us "You guys have the best view" and I got
-to respond "I'm just here for the smell". Yes I know, banger. It became a running joke
-after a while. Running... get it? Ok I'll shut up.
+to respond "I'm just here for the smell". Banger. It became a running joke
+after a while. A _running_ joke... get it? I'll shut up.
 
 <p><img src="https://2e0yre.radio/assets/2026-09-13/the-red-barn.jpg" alt="The red barn" title="The red barn" height="400"></p>
 
 #### The frequency change
 
-The repeater went offline after a while and we switched to the fallback simplex. I had the
+The repeater went offline after a while (scheduled) and we switched to the fallback simplex. I had the
 wrong frequency, kept shouting into the void on a freq that nobody monitored, and wondering
 if I messed up the radio or what.
 
@@ -90,8 +92,8 @@ const markers = [
   },
 ]
 
-const firstMarker = markers[0];
-var map = L.map('map').setView([firstMarker.lat, firstMarker.lon], 16);
+const firstMarker = markers[1];
+var map = L.map('map').setView([firstMarker.lat, firstMarker.lon], 12);
 L.tileLayer('http://sgx.geodatenzentrum.de/wmts_topplus_open/tile/1.0.0/web_grau/default/WEBMERCATOR/{z}/{y}/{x}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
