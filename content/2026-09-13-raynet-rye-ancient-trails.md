@@ -32,7 +32,7 @@ the finish line, as I kept telling runners ("nearly in sight!"). Just look at it
 
 <p><img src="https://2e0yre.radio/assets/2026-09-13/the-view.jpg" alt="The view" title="The view" height="400"></p>)
 
-![The view - front](https://2e0yre.radio/assets/2026-09-13/view-front.jpg)
+<p><img src="https://2e0yre.radio/assets/2026-09-13/view-front.jpg" alt="The view - front" title="The view - front" height="400"></p>)
 
 #### The weather
 
