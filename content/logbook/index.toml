@@ -2,16 +2,16 @@ title="Logbook"
 slug="logbook"
 permalink="/logbook"
 date="2025-10-25"
-date_updated="2026-09-13"
+date_updated="2026-09-28"
 content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2026-09-13 19:40:30 +0100
+This page was last updated on 2026-09-28 00:45:38 +0100
 
 <hr>
 <h3>2e0yre Entries</h3>
-<!-- 2026-09-13 19:40:31 +0100 -->
+<!-- 2026-09-28 00:45:38 +0100 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -22,6 +22,36 @@ This page was last updated on 2026-09-13 19:40:30 +0100
 <th>Operator</th>
 <!--<th>Comment</th>-->
 </tr></thead><tbody>
+<tr>
+<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td><date>2026-09-23</date></td>
+<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E1THU">2E1THU</a></td>
+<td>2m</td>
+<td>FM</td>
+<td></td>
+<td></td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td><date>2026-09-23</date></td>
+<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7SDA">M7SDA</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>JO01GO91</td>
+<td>Aubrey </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td><date>2026-09-23</date></td>
+<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0LMR">M0LMR</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>JO01FN88</td>
+<td>Dorothy Stanley </td>
+<!--<td></td>-->
+</tr>
 <tr>
 <td class=country><span title="Greece" class="fi fi-gr"></span></td>
 <td><date>2025-12-20</date></td>
@@ -45,7 +75,7 @@ This page was last updated on 2026-09-13 19:40:30 +0100
 </tbody></table>
 <hr>
 <h3>m7xfx Entries</h3>
-<!-- 2026-09-13 19:40:31 +0100 -->
+<!-- 2026-09-28 00:45:38 +0100 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
