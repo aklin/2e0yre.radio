@@ -4,6 +4,8 @@ description = ""
 keywords = ""
 image = ""
 #theme = ""
+show_extra_pages=true
+pages=100
 
 index="index.md"
 url = "https://2e0yre.radio/public"
