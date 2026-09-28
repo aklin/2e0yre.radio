@@ -14,7 +14,8 @@ My name is Tony and my callsign is 2E0YRE. I hold an Intermediate license.
 I used to be a member of the [Cray Valley Radio Society][cvrs], which helped me with my
 license training. Many thanks to them.
 
-I'm a current member of South Kent [RAYNET][raynet].
+I'm a current member of South Kent [RAYNET][raynet], and I've recently joined the 
+[Bredhurst Receiving and Transmitting Group][brats].
 
 This page documents my radio exploits, such as they might be.
 
@@ -44,14 +45,16 @@ You can contact me on [QRZ][qrz].
 
 ### Equipment
 
-I own a number of Baofengs and a [Yaesu FT-817][ft817]. My favourite handheld radio has been
-a Quangsheng which I have lost. It was my favourite because it could be charged via
-USB-C, which means you didn't need a dedicated charger. I used to take it with me
-everywhere, and ultimately I misplaced it.
+I own a number of Baofengs and a [Yaesu FT-817][ft817]. My current handheld is a
+[Yaesu FT-70De][ft70d] which is a fantastic bit of kit - it doesn't transmit on PMR446
+though which was a bit of a surprise. A purebred amateur handheld, I suppose. None of that
+PMR nonesense.A Quangsheng UV-K6 acts as backup because it changes
+via USB-C and that's very convenient.
 
 [qrz]: https://qrz.com/db/2e0yre
 [cvrs]: https://cvrs.uk/
 [raynet]: https://www.raynet-uk.net/
 [ft817]: https://www.rigpix.com/yaesu/ft817.htm
-
+[ft70d]: https://www.rigpix.com/yaesu/ft70de.htm
+[brats]: https://brats-qth.org/index.html
 ---
