@@ -2,7 +2,7 @@
 title = "RAYNET Rye Ancient Trails - 13th Sep 2026"
 slug = "2026-09-13-raynet-rye-ancient-trails"
 date = "2026-09-13"
-tags = []
+tags = ["raynet", "rye", "rye-ancient-trails"]
 +++
 
 
