@@ -2,16 +2,16 @@ title="Logbook"
 slug="logbook"
 permalink="/logbook"
 date="2025-10-25"
-date_updated="2026-09-28"
+date_updated="2026-10-31"
 content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2026-09-28 00:45:38 +0100
+This page was last updated on 2026-10-31 18:48:08 +0000
 
 <hr>
 <h3>2e0yre Entries</h3>
-<!-- 2026-09-28 00:45:38 +0100 -->
+<!-- 2026-10-31 18:48:08 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -22,6 +22,26 @@ This page was last updated on 2026-09-28 00:45:38 +0100
 <th>Operator</th>
 <!--<th>Comment</th>-->
 </tr></thead><tbody>
+<tr>
+<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td><date>2026-10-31</date></td>
+<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7VGS">M7VGS</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>IO91vl</td>
+<td>Brian Gilham </td>
+<!--<td></td>-->
+</tr>
+<tr>
+<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td><date>2026-10-22</date></td>
+<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G3RCV">G3RCV</a></td>
+<td>2m</td>
+<td>FM</td>
+<td>JO01ak</td>
+<td>Cray Valley Radio Society </td>
+<!--<td></td>-->
+</tr>
 <tr>
 <td class=country><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-09-23</date></td>
@@ -75,7 +95,7 @@ This page was last updated on 2026-09-28 00:45:38 +0100
 </tbody></table>
 <hr>
 <h3>m7xfx Entries</h3>
-<!-- 2026-09-28 00:45:38 +0100 -->
+<!-- 2026-10-31 18:48:09 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
