@@ -7,11 +7,11 @@ content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2026-10-31 18:48:08 +0000
+This page was last updated on 2026-10-31 20:50:34 +0000
 
 <hr>
 <h3>2e0yre Entries</h3>
-<!-- 2026-10-31 18:48:08 +0000 -->
+<!-- 2026-10-31 20:50:34 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -23,9 +23,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<th>Comment</th>-->
 </tr></thead><tbody>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-10-31</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7VGS">M7VGS</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7VGS">M7VGS</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>IO91vl</td>
@@ -33,9 +33,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-10-22</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G3RCV">G3RCV</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G3RCV">G3RCV</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>JO01ak</td>
@@ -43,9 +43,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-09-23</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E1THU">2E1THU</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E1THU">2E1THU</a></td>
 <td>2m</td>
 <td>FM</td>
 <td></td>
@@ -53,9 +53,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-09-23</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7SDA">M7SDA</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M7SDA">M7SDA</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>JO01GO91</td>
@@ -63,9 +63,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2026-09-23</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0LMR">M0LMR</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0LMR">M0LMR</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>JO01FN88</td>
@@ -73,9 +73,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="Greece" class="fi fi-gr"></span></td>
+<td class="country"><span title="Greece" class="fi fi-gr"></span></td>
 <td><date>2025-12-20</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SV1MGI">SV1MGI</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SV1MGI">SV1MGI</a></td>
 <td>2m</td>
 <td>FM</td>
 <td></td>
@@ -83,9 +83,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="Greece" class="fi fi-gr"></span></td>
+<td class="country"><span title="Greece" class="fi fi-gr"></span></td>
 <td><date>2025-05-03</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SY1AWR">SY1AWR</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/SY1AWR">SY1AWR</a></td>
 <td>2m</td>
 <td>FM</td>
 <td></td>
@@ -95,7 +95,7 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 </tbody></table>
 <hr>
 <h3>m7xfx Entries</h3>
-<!-- 2026-10-31 18:48:09 +0000 -->
+<!-- 2026-10-31 20:50:34 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -107,9 +107,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<th>Comment</th>-->
 </tr></thead><tbody>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-09-24</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GB2CM">GB2CM</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GB2CM">GB2CM</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>JO01bm</td>
@@ -117,9 +117,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-08-05</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GX3WIM">GX3WIM</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/GX3WIM">GX3WIM</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>IO91VG</td>
@@ -127,9 +127,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-08-01</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G5FRG">G5FRG</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G5FRG">G5FRG</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>IO91wm</td>
@@ -137,9 +137,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-07-24</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G0LRX">G0LRX</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/G0LRX">G0LRX</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>IO91vl</td>
@@ -147,9 +147,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-07-21</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0KPU">M0KPU</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/M0KPU">M0KPU</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>JO01al</td>
@@ -157,9 +157,9 @@ This page was last updated on 2026-10-31 18:48:08 +0000
 <!--<td></td>-->
 </tr>
 <tr>
-<td class=country><span title="England" class="fi fi-gb-eng"></span></td>
+<td class="country"><span title="England" class="fi fi-gb-eng"></span></td>
 <td><date>2023-07-16</date></td>
-<td class=station><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E0HEV">2E0HEV</a></td>
+<td class="station"><a itescope itemtype="https://schema.org/callSign" href="https://qrz.com/db/2E0HEV">2E0HEV</a></td>
 <td>2m</td>
 <td>FM</td>
 <td>IO91vl</td>
