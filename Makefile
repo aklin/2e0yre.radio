@@ -6,6 +6,7 @@ fetch:
 
 build:
 	blades all
+	sed 's@<link>\(https://2e0yre.radio/.*\)</link>@<link>\1</link><guid>\1</guid>@g' public/rss.xml 
 
 favicon:
 	mv public/assets/*ico public/
