@@ -55,7 +55,7 @@ do
 	date=$(echo "${row}" | xtract "//td[${col_date}]/span/text()")
 	band=$(echo "${row}" | xtract "//td[${col_band}]/text()")
 	mode=$(echo "${row}" | xtract "//td[${col_mode}]/text()")
-	op=$(echo "${row}" | xtract "//td[${col_op}]/text()" | sed -e 's/&amp;/\&/g' | sed -z 's/\n/ /g')
+	op=$(echo "${row}" | xtract "//td[${col_op}]/text()" | sed -z 's/\n/ /g')
 	grid=$(echo "${row}" | xtract "//td[${col_grid}]/span/text()")
 	country=$(echo "${row}" | xtract "//td[${col_country}]/text()")
 

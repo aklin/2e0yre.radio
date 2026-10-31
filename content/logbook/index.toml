@@ -7,11 +7,11 @@ content="""
 
 ## QRZ Logbook Summary
 
-This page was last updated on 2026-10-31 20:52:43 +0000
+This page was last updated on 2026-10-31 20:57:19 +0000
 
 <hr>
 <h3>2e0yre Entries</h3>
-<!-- 2026-10-31 20:52:43 +0000 -->
+<!-- 2026-10-31 20:57:19 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -95,7 +95,7 @@ This page was last updated on 2026-10-31 20:52:43 +0000
 </tbody></table>
 <hr>
 <h3>m7xfx Entries</h3>
-<!-- 2026-10-31 20:52:44 +0000 -->
+<!-- 2026-10-31 20:57:20 +0000 -->
 <table class="logbook"><thead><tr>
 <th></th>
 <th>Date</th>
@@ -123,7 +123,7 @@ This page was last updated on 2026-10-31 20:52:43 +0000
 <td>2m</td>
 <td>FM</td>
 <td>IO91VG</td>
-<td>Club Station Wimbledon & District Amateur Radio Society </td>
+<td>Club Station Wimbledon &amp; District Amateur Radio Society </td>
 <!--<td></td>-->
 </tr>
 <tr>
