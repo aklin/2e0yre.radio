@@ -1,28 +1,26 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en_GB">
 <head>
-	<meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta charset="utf-8">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
 	<title>{{title}}{{#current}}{{pid}}{{/current}} | {{#site}}{{title}}</title>
-  {{#title}}<meta property="og:title" content="{{title}}" />{{/title}}
+  {{#title}}<meta property="og:title" content="{{title}}">{{/title}}
 	{{#author}}<meta name="author" content="{{name}}">{{/author}}
 	{{#description}}<meta name="description" content="{{description}}">{{/description}}
   {{#description}}<meta name="og:description" content="{{description}}">{{/description}}
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 
-  <meta property="og:locale" content="en_GB" />
-  <meta property="og:locale:alternate" content="en_US" />
-  {{#site}}<meta property="og:site_name" content="{{name}}" />{{/site}}
-  <meta property="og:url" content="{{site}}/{{slug}}" />
-  <meta property="profile:username" content="2E0YRE" />
-  {{#date}}<meta property="published_time" content="{{date}}" />{{/date}}
-  {{#date_updated}}<meta property="modified_time" content="{{date_updated}}" />{{/date_updated}}
+  <meta property="og:locale" content="en_GB" >
+  <meta property="og:locale:alternate" content="en_US" >
+  {{#site}}<meta property="og:site_name" content="{{name}}" >{{/site}}
+  <meta property="og:url" content="{{site}}/{{slug}}" >
+  <meta property="profile:username" content="2E0YRE" >
+  {{#date}}<meta property="published_time" content="{{date}}" >{{/date}}
+  {{#date_updated}}<meta property="modified_time" content="{{date_updated}}" >{{/date_updated}}
 
 	<link href="{{url}}/rss.xml" rel="alternate" title="{{title}}" type="application/rss+xml">
 	<link href="{{url}}/atom.xml" rel="alternate" title="{{title}}" type="application/atom+xml">
-	<link href="/{{assets}}/style.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<link href="/{{assets}}/style.css" media="screen" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
      crossorigin=""
