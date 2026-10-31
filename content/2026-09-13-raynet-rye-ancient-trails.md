@@ -85,7 +85,7 @@ const markers = [
     popupContent: "<b>Race Start</b>"
   }, {
     lat: 50.95413580930369, lon: 0.7299391401808134,
-    popupContent: "<b>Finish and ECU location</p>"
+    popupContent: "<b>Finish and ECU location</b>"
   }, {
     lat: 50.95915619518759, lon: 0.7002331017844231,
     popupContent: "<b>MP131</b>",
