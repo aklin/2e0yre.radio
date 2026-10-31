@@ -3,7 +3,7 @@
 __dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 function get_logbook_for_callsign(){
-  echo "<hr>"
+  echo "<hr />"
   echo "<h3>${1} Entries</h3>"
   echo "$(bash "${__dir}/get-logbook" "${1}")"
 
